@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+    /* trbl */
+
+}
+
+nav #logo-image {
+    height: 30px;
+}
+
+nav #nav-list ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 20px;
+
+}
+#hero{
+    display: flex;
+    width: 100%;
+    
+}
+#hero-text{
+    width: 50%;
+}
+#hero-image{
+    width: 50%;
+}
