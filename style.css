@@ -1,16 +1,20 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
+
 nav {
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 4rem;
+    padding: 2rem 5rem;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
 
     /* trbl */
 
@@ -27,14 +31,70 @@ nav #nav-list ul {
     font-size: 20px;
 
 }
-#hero{
+
+#hero {
     display: flex;
-    width: 100%;
+    max-width: 100%;
+    background-color: black;
+    max-height: 100%;
+    overflow: hidden;
+    padding:3rem 5rem 0;
     
 }
-#hero-text{
+
+#hero-text {
+    width: 50%;
+    padding-top: 5rem;
+    
+}
+#hero-text h1{ 
+    font-size: 4.5rem;
+    
+    
+
+}
+#hero-text p{
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    padding-top: 1.5rem;
+}
+
+#hero-image {
     width: 50%;
 }
-#hero-image{
-    width: 50%;
+
+.container {
+    /* max-width: 100%; */
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
+.butt{
+    
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-family: Montserrat;
+    cursor: pointer;
+    transition: 1s;
+ 
+    
+}
+
+.butt:hover {
+    background-color: orange;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    
+}
+
+
